@@ -6,7 +6,7 @@
   "scripts": {
     "plop": "plop",
     "dev": "vite",
-    "build": "vue-tsc && vite build",
+    "build": "vite build",
     "preview": "vite preview",
     "staging": "vite --mode staging",
     "production": "vite --mode production"

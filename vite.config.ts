@@ -6,6 +6,7 @@ import { resolve } from 'path'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/chat-h5/',
   plugins: [
     vue(),
     createSvgIconsPlugin({
