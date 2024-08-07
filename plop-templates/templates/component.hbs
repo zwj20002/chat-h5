@@ -1,0 +1,19 @@
+<template>
+  <div class="{{ pascalCase2Line componentName }}">
+    {{componentName}} component
+  </div>
+</template>
+
+<script lang="ts">
+import { defineComponent } from 'vue'
+
+export default defineComponent({
+  name: '{{ componentName }}',
+  props: {},
+  setup(props, ctx) {}
+})
+</script>
+
+<style lang="less" scoped>
+.{{ pascalCase2Line componentName }} {}
+</style>
